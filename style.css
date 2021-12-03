@@ -1,0 +1,29 @@
+body {
+    background-color:#222333;
+    text-align:center;
+}
+h1 {
+    color:white;
+    font-family:Arial;
+}
+h2 {
+    color:red;
+    text-align:left;
+    position: fixed;
+    
+}
+.moveloop {
+    animation: moveloop 3s linear 0s infinite normal;
+}
+@keyframes moveloop {
+    0%{
+        transform: translateX(-50px)
+    }
+    100%{
+        transform: translateX(2000px)
+    }
+}
+p {
+    font-weight:bold;
+    color:#888999;
+}
