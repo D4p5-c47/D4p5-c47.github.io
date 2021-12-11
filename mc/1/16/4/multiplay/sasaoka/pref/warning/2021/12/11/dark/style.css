@@ -2,27 +2,12 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   background-color:#222333;
 }
+div {
+  color:#ffffff
+}
 h1 {
   color:red;
   font-weight: bold;
-}
-h2 {
-  color:#ffffff;
-}
-h3 {
-  color:#ffffff;
-}
-h4 {
-  color:#ffffff;
-}
-h5 {
-  color:#ffffff;
-}
-h6 {
-  color:#ffffff;
-}
-p {
-  color:#ffffff;
 }
 span {
   font-weight: bold;
