@@ -6,9 +6,6 @@ h1 {
   color:red;
   font-weight: bold;
 }
-span {
-  font-weight: bold;
-}
 h2 {
   color:#ffffff;
 }
@@ -26,4 +23,7 @@ h6 {
 }
 p {
   color:#ffffff;
+}
+span {
+  font-weight: bold;
 }
