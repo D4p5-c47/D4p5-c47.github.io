@@ -21,7 +21,7 @@ h2 {
 }
 @keyframes moveloop {
     0%{
-        transform: translateX(-200px)
+        transform: translateX(-500px)
     }
     100%{
         transform: translateX(2000px)
