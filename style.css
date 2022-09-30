@@ -18,6 +18,7 @@ h2 {
 .moveloop {
     animation: moveloop 3s linear 0s infinite normal;
     font-family: D4p5-c47;
+    font-weight:bold;
 }
 @keyframes moveloop {
     0%{
