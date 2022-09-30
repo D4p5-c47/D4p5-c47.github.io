@@ -18,14 +18,13 @@ h2 {
 .moveloop {
     animation: moveloop 3s linear 0s infinite normal;
     font-family: D4p5-c47;
-    font-weight:bold;
 }
 @keyframes moveloop {
     0%{
         transform: translateX(-50px)
     }
     100%{
-        transform: translateX(2000px)
+        transform: translateX(100%)
     }
 }
 p {
