@@ -1,3 +1,7 @@
+@font-face {
+    font-family: D4p5-c47;
+    src: url("D4p5_Font.ttf");
+}
 body {
     background-color:#222333;
     text-align:center;
@@ -10,10 +14,10 @@ h2 {
     color:red;
     text-align:left;
     position: fixed;
-    
 }
 .moveloop {
     animation: moveloop 3s linear 0s infinite normal;
+    font-family: D4p5-c47;
 }
 @keyframes moveloop {
     0%{
@@ -26,10 +30,6 @@ h2 {
 p {
     font-weight:bold;
     color:#888999;
-}
-@font-face {
-    font-family: D4p5-c47;
-    src: url("D4p5_Font.ttf");
 }
 .custom-font {
     font-family: D4p5-c47;
