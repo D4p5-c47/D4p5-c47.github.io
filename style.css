@@ -27,7 +27,7 @@ h2 {
         transform: translateX(2000px)
     }
 }
-p {
+p a {
     font-weight:bold;
     color:#888999;
 }
