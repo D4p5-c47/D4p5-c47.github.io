@@ -1,3 +1,3 @@
 'use strict';
-lpcontent = location.pathname;
+const lpcontent = location.pathname;
 document.getElementById('path').textContent = lpcontent;
