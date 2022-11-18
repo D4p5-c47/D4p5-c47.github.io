@@ -1,2 +1,3 @@
 'use strict';
-document.getElementById('path').textContent = location.pathname;
+lpcontent = location.pathname;
+document.getElementById('path').textContent = lpcontent;
