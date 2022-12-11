@@ -11,7 +11,12 @@
         <h2 class="moveloop">ERROR ERROR ERROR</h2>
         <section>
             <p>&nbsp;<br>&nbsp;<br>The requested URL <span id="path">/</span> was not found<br>Its real 404.</a>.</p>
-            <script src="/script.js"></script>
+            <script>
+                'use strict';
+                const lpcontent = location.pathname;
+                const document.getElementById('path').textContent = lpcontent;
+                console.log(lpcontent);
+            </script>
         </section>
     </body>
 </html>
