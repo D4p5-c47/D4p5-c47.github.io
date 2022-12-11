@@ -10,11 +10,11 @@
         <h1 class="custom-font">404</h1>
         <h2 class="moveloop">ERROR ERROR ERROR</h2>
         <section>
-            <p>&nbsp;<br>&nbsp;<br>The requested URL <span class="path-color" id="path">/</span> was not found<br>Its not fake 404.</p>
+            <p>&nbsp;<br>&nbsp;<br>The requested URL <span class="path-color"><span id="path"></span></span>was not found<br>Its not fake 404.</p>
             <script>
                 'use strict';
                 const lpcontent = location.pathname;
-                const document.getElementById('path').textContent = lpcontent;
+                const document.getElementById('path').textContent = lpcontent + " ";
                 console.log(lpcontent);
             </script>
         </section>
