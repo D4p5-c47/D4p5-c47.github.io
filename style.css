@@ -37,6 +37,9 @@ a {
 .custom-font {
     font-family: D4p5-c47;
 }
-path {
+#path {
     color:#007dff;
+}
+.spoiler {
+    color: #222333;
 }
