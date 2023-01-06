@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="langSelector">
-            <label for="lang">Language:</label>
+            <label for="lang" id="1">Language:</label>
             <select id="lang">
                 <option value="en">English</option>
                 <option value="ja">日本語</option>
@@ -16,9 +16,9 @@
             </select>
         </div>
         <h1 class="custom-font">404</h1>
-        <h2 class="moveloop">E-r-r-o-r-.</h2>
+        <h2 class="moveloop" id="2">E-r-r-o-r-.</h2>
         <section>
-            <p>&nbsp;<br>&nbsp;<br>The requested URL <span id="path">/</span> was not found<br><span class="spoiler">This is Fake 404. (spoiler)</span></p>
+            <p>&nbsp;<br>&nbsp;<br><span id="3">The requested URL</span> <span id="path">/</span> <span id="4">was not found</span><br><span class="spoiler" id="5">This is Fake 404. (spoiler)</span></p>
             <script src="/script.js"></script>
         </section>
         <script>
@@ -33,9 +33,14 @@
             Cookies.set('lang', langP)
         </script>
         <script>
-            if ( langP === "en" ) {
+            if ( langP === "ja" ) {
                 document.querySelector('option[value="en"]').selected = true;
-            } else if (langP === "ja") {
+                document.getElementById("1").textContent = "言語：";
+                document.getElementById("2").textContent = "　エ　ラ　ー　。　";
+                document.getElementById("3").textContent = "リクエストされたURL";
+                document.getElementById("4").textContent = "は見つかりませんでした。";
+                document.getElementById("5").textContent = "これは嘘のエラ－。(ネタバレ)";
+            } else if ( langP === "en" ) {
                 document.querySelector('option[value="ja"]').selected = true;
             } else if ( langP === "es" ) {
                 document.querySelector('option[value="es"]').selected = true;
