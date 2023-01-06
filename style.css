@@ -7,6 +7,9 @@ body {
     text-align:center;
     font-family: 'Noto Sans JP', sans-serif;
 }
+.langSelector {
+    text-align: right;
+}
 h1 {
     color:white;
 }
