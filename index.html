@@ -16,16 +16,30 @@
             </select>
         </div>
         <h1 class="custom-font">404</h1>
-        <h2 class="moveloop">ERROR.</h2>
+        <h2 class="moveloop">E-r-r-o-r-.</h2>
         <section>
             <p>&nbsp;<br>&nbsp;<br>The requested URL <span id="path">/</span> was not found<br><span class="spoiler">This is Fake 404. (spoiler)</span></p>
             <script src="/script.js"></script>
         </section>
+        <script>
+            var langP = document.getElementById("lang").value;
+        </script>
         <script type="module" src="/path/to/js.cookie.mjs"></script>
         <script type="module">
             import Cookies from '/path/to/js.cookie.mjs'
-
-            Cookies.set('lang', 'en')
+            if ( Cookies.get('lang') !== undefined ) {
+                langP = Cookies.get('lang');
+            }
+            Cookies.set('lang', langP)
+        </script>
+        <script>
+            if ( langP === "en" ) {
+                document.querySelector('option[value="en"]').selected = true;
+            } else if (langP === "ja") {
+                document.querySelector('option[value="ja"]').selected = true;
+            } else if ( langP === "es" ) {
+                document.querySelector('option[value="es"]').selected = true;
+            }
         </script>
     </body>
 </html>
