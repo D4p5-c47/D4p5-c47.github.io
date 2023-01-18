@@ -1,6 +1,6 @@
 @font-face {
-    font-family: D4p5-c47;
-    src: url("/D4p5_Font.ttf");
+    font-family: Eclyera;
+    src: url("https://raw.githubusercontent.com/D4p5-c47/Eclyera/main/Eclyera.ttf");
 }
 body {
     background-color:#222333;
@@ -21,7 +21,7 @@ h2 {
 }
 .moveloop {
     animation: moveloop 4s linear 0s infinite normal;
-    font-family: D4p5-c47;
+    font-family: Eclyera;
 }
 @keyframes moveloop {
     0%{
@@ -39,7 +39,7 @@ a {
     color: blue
 }
 .custom-font {
-    font-family: D4p5-c47;
+    font-family: Eclyera;
 }
 #path {
     color:#007dff;
