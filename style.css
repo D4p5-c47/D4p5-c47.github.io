@@ -40,6 +40,8 @@ a {
 }
 .custom-font {
     font-family: Eclyera;
+}
+h1.custom-font {
     font-weight: normal;
 }
 #path {
