@@ -51,9 +51,5 @@ h1.custom-font {
     color: #222333;
 }
 #shtx {
-    inline-size: 69px;
-}
-.sDbpl {
-    inline-size: auto;
-    transform: translateX(50%);
+    inline-size: 99%;
 }
