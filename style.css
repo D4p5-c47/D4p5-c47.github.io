@@ -53,3 +53,7 @@ h1.custom-font {
 #shtx {
     inline-size: 69px;
 }
+.sDbpl {
+    inline-size: auto;
+    transform: translateX(50%);
+}
