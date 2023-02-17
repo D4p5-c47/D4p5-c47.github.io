@@ -12,13 +12,13 @@
             'use strict'
             var rnX = 0;
             var rnY = 0;
-            const rnI = setInterval(shTxR, 10);
+            setInterval(shTxR, 10);
             
             function shTxR() {
                 rnX = Math.floor(Math.random() * 22) - 11;
                 rnY = Math.floor(Math.random() * 22) - 11;
                 const shBv = document.getElementById("shtx");
-                shBv.style.transform = {translateX: rnX; translateY: rnY};
+                shBv.style.transform = {translate: rnX, rnY};
             }
       </script>
     </body>
